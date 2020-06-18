@@ -10503,3 +10503,22 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+section#services {
+  /*  background-image: url("../assets/img/MERN.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .section-heading {
+        color: $white;
+        .text-uppercase {
+            font-size: 3rem;
+        }
+        .text-muted {
+            font-size: 2rem;
+        }
+    }*/
+}
+section#services .col-md-3 span img {
+  max-height: 100%;
+  max-width: 100%;
+}

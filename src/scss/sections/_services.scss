@@ -1,0 +1,23 @@
+// Styling for the services section
+section#services {
+  /*  background-image: url("../assets/img/MERN.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .section-heading {
+        color: $white;
+        .text-uppercase {
+            font-size: 3rem;
+        }
+        .text-muted {
+            font-size: 2rem;
+        }
+    }*/
+    .col-md-3 {
+        span {
+            img {
+            max-height: 100%;
+            max-width: 100%;
+            }
+        }
+    }
+}

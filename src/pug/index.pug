@@ -42,119 +42,52 @@ html(lang='en')
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#about') About
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#team') Team
-                        li.nav-item
                             a.nav-link.js-scroll-trigger(href='#contact') Contact
         // Masthead
         header.masthead
             .container
-                .masthead-subheading Welcome To Our Studio!
-                .masthead-heading.text-uppercase It's Nice To Meet You
-                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger(href='#services') Tell Me More
+                .masthead-subheading It's been a long road
+                .masthead-heading.text-uppercase The story of a Bootcamp
+                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger(href='#services') GO AHEAD
 
         // Services
         section#services.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Services
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h2.section-heading.text-uppercase STACK
+                    h3.section-subheading.text-muted there's no jedi warrior without them lightsaber
                 .row.text-center
-                    .col-md-4
+                    .col-md-3
                         span.fa-stack.fa-4x
-                            i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-shopping-cart.fa-stack-1x.fa-inverse
-                        h4.my-3 E-Commerce
+                            img(src='assets/img/stack/nodejs.png', alt='')
+                        h4.my-3 nodeJS
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-                    .col-md-4
+                            | Fast and reliable backend performance, amazingly simple and powerful.
+                    .col-md-3
                         span.fa-stack.fa-4x
-                            i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-laptop.fa-stack-1x.fa-inverse
-                        h4.my-3 Responsive Design
+                            img(src='assets/img/stack/express.png', alt='')
+                        h4.my-3 Express.js
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-                    .col-md-4
+                            | The perfect framework for smooth and fresh backend node development.
+                    .col-md-3
                         span.fa-stack.fa-4x
-                            i.fas.fa-circle.fa-stack-2x.text-primary
-                            i.fas.fa-lock.fa-stack-1x.fa-inverse
-                        h4.my-3 Web Security
+                            img(src='assets/img/stack/mongodb.png', alt='')
+                        h4.my-3 MongoDB
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-
-        // Portfolio Grid
-        section#portfolio.page-section.bg-light
-            .container
-                .text-center
-                    h2.section-heading.text-uppercase Portfolio
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
-                .row
-                    .col-lg-4.col-sm-6.mb-4
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal1')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/01-thumbnail.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading Threads
-                                .portfolio-caption-subheading.text-muted Illustration
-                    .col-lg-4.col-sm-6.mb-4
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal2')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/02-thumbnail.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading Explore
-                                .portfolio-caption-subheading.text-muted Graphic Design
-                    .col-lg-4.col-sm-6.mb-4
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal3')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/03-thumbnail.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading Finish
-                                .portfolio-caption-subheading.text-muted Identity
-                    .col-lg-4.col-sm-6.mb-4.mb-lg-0
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal4')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/04-thumbnail.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading Lines
-                                .portfolio-caption-subheading.text-muted Branding
-                    .col-lg-4.col-sm-6.mb-4.mb-sm-0
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal5')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/05-thumbnail.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading Southwest
-                                .portfolio-caption-subheading.text-muted Website Design
-                    .col-lg-4.col-sm-6
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal6')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/06-thumbnail.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading Window
-                                .portfolio-caption-subheading.text-muted Photography
+                            | Super fast and secure db. What else?
+                    .col-md-3
+                        span.fa-stack.fa-4x
+                            img(src='assets/img/stack/react.png', alt='')
+                        h4.my-3 React
+                        p.text-muted
+                            | and redux, and soon recoil. Frontending like a boss.
 
         // About
         section#about.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase About
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h2.section-heading.text-uppercase Summary:
+                    p.section-subheading.text-muted A humble review of the jobs made so far.
                 ul.timeline
                     li
                         .timeline-image
@@ -298,7 +231,7 @@ html(lang='en')
             .container
                 .row.align-items-center
                     .col-lg-4.text-lg-left
-                        | Copyright © Your Website 2020
+                        | Copyright © mavidalma 2020
                     .col-lg-4.my-3.my-lg-0
                         a.btn.btn-dark.btn-social.mx-2(href='#!')
                             i.fab.fa-twitter
