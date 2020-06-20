@@ -18,8 +18,9 @@
         font-weight: $headings-font-weight;
         letter-spacing: $headings-letter-spacing;
         text-transform: uppercase;
-        img {
-            height: 1.5rem;
+        p {
+            font-size: 1.5rem;
+            color: rgba(233, 201, 57, 0.973);
         }
     }
     .navbar-nav {

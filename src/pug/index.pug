@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Agency - Start Bootstrap Theme
+        title mavidalma - story of a bootcamp
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
@@ -29,18 +29,18 @@ html(lang='en')
         nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
             .container
                 a.navbar-brand.js-scroll-trigger(href='#page-top')
-                    img(src='assets/img/navbar-logo.svg', alt='')
+                    p mavidalma
                 button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars.ml-1
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.text-uppercase.ml-auto
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#services') Services
+                            a.nav-link.js-scroll-trigger(href='#services') Stack
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#portfolio') Portfolio
+                            a.nav-link.js-scroll-trigger(href='#about') projects
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#about') About
+                            a.nav-link.js-scroll-trigger(href='#team') Me
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#contact') Contact
         // Masthead
@@ -86,7 +86,7 @@ html(lang='en')
         section#about.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Summary:
+                    h2.section-heading.text-uppercase Project timeline:
                     p.section-subheading.text-muted A humble review of the jobs made so far.
                 ul.timeline
                     li
@@ -94,118 +94,75 @@ html(lang='en')
                             img.rounded-circle.img-fluid(src='assets/img/about/1.jpg', alt='')
                         .timeline-panel
                             .timeline-heading
-                                h4 2009-2011
-                                h4.subheading Our Humble Beginnings
+                                h4 Web foundaments
+                                h4.subheading HTML / CSS
                             .timeline-body
                                 p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                    | the challenge: building a video streaming service mock using only self-developed html and css. No libraries or frameworks allowed. Not even the slightiesst Js.
                     li.timeline-inverted
                         .timeline-image
-                            img.rounded-circle.img-fluid(src='assets/img/about/2.jpg', alt='')
+                            img.rounded-circle.img-fluid(src='assets/img/about/2.jpg', alt='.')
                         .timeline-panel
                             .timeline-heading
-                                h4 March 2011
-                                h4.subheading An Agency is Born
+                                h4 intro Js - advanced frontend
+                                h4.subheading vanilla icecream.
                             .timeline-body
                                 p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                    | Managing the DOM 'like a boss' simply with vanilla. Also, using preprocessors like SASS and bundling with webpack.
                     li
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/3.jpg', alt='')
                         .timeline-panel
                             .timeline-heading
-                                h4 December 2012
-                                h4.subheading Transition to Full Service
+                                h4 node | backend 
+                                h4.subheading The MEN from MERN
                             .timeline-body
                                 p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                    | Building an API rest from scratch using expressjs and mongodb. Securized with JWT and serving the bakend of the anunciaLOL app.
                     li.timeline-inverted
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/4.jpg', alt='')
                         .timeline-panel
                             .timeline-heading
-                                h4 July 2014
-                                h4.subheading Phase Two Expansion
+                                h4 REACT
+                                h4.subheading enjoying web components
                             .timeline-body
                                 p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                    | using classes, hooks, redux, router, context and soon to come recoil. Frontending like a pro.
                     li.timeline-inverted
                         .timeline-image
                             h4
-                                | Be Part
+                                | Best stuff
                                 br
-                                | Of Our
+                                | is yet
                                 br
-                                | Story!
+                                | to come!
 
         // Team
         section#team.page-section.bg-light
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Our Amazing Team
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h2.section-heading.text-uppercase About myself
+                    h3.section-subheading.text-muted the boss.
                 .row
                     .col-lg-4
                         .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/1.jpg', alt='')
-                            h4 Kay Garland
-                            p.text-muted Lead Designer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
                     .col-lg-4
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='')
-                            h4 Larry Parker
-                            p.text-muted Lead Marketer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
+                            h4 Mario Vidal
+                            p.text-muted Entrepeneur || intrapeneur || marketer || developer
+                            a.btn.btn-dark.btn-social.mx-2(href='https://www.linkedin.com/in/mariovidalm/')
                                 i.fab.fa-linkedin-in
                     .col-lg-4
                         .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='')
-                            h4 Diana Petersen
-                            p.text-muted Lead Developer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
-                .row
-                    .col-lg-8.mx-auto.text-center
-                        p.large.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
-
-        // Clients
-        div.py-5
-            .container
-                .row
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/envato.jpg', alt='')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/designmodo.jpg', alt='')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/themeforest.jpg', alt='')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.d-block.mx-auto(src='assets/img/logos/creative-market.jpg', alt='')
 
         // Contact
         section#contact.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Contact Us
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h2.section-heading.text-uppercase Contact
+                    h3.section-subheading.text-muted Contact form not working yet.
                 form#contactForm(name='sentMessage', novalidate='novalidate')
                     .row.align-items-stretch.mb-5
                         .col-md-6
@@ -239,9 +196,6 @@ html(lang='en')
                             i.fab.fa-facebook-f
                         a.btn.btn-dark.btn-social.mx-2(href='#!')
                             i.fab.fa-linkedin-in
-                    .col-lg-4.text-lg-right
-                        a.mr-3(href='#!') Privacy Policy
-                        a(href='#!') Terms of Use
 
         // Portfolio Modals
         // Modal 1
@@ -261,7 +215,7 @@ html(lang='en')
                                     p
                                         | Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
                                     ul.list-inline
-                                        li Date: January 2020
+                                        li Date: may 2020
                                         li Client: Threads
                                         li Category: Illustration
                                     button.btn.btn-primary(data-dismiss='modal', type='button')
